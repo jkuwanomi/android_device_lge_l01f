@@ -25,4 +25,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensor_def_l01f.conf:system/etc/sensor_def_variable.conf
+    $(LOCAL_PATH)/configs/sensor_def_l01f.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def_variable.conf
